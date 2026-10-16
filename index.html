@@ -273,6 +273,10 @@
 </header>
 
 <div class="controls">
+  <select id="modeSelect">
+    <option value="questions.json">Past Questions</option>
+    <option value="questions_plus.json">Past Questions + Challenges</option>
+  </select>
   <select id="sessionFilter">
     <option value="all">All Sessions</option>
   </select>
@@ -327,14 +331,16 @@ let skipped = 0;
 let flipped = false;
 
 async function init() {
+  const file = document.getElementById('modeSelect').value;
   try {
-    const res = await fetch('questions.json');
+    const res = await fetch(file);
     allQuestions = await res.json();
     populateSessions();
-    document.getElementById('subtitle').textContent = `${allQuestions.length} questions across 26 sessions`;
+    const modeLabel = file === 'questions_plus.json' ? 'original + challenge questions' : 'questions';
+    document.getElementById('subtitle').textContent = `${allQuestions.length} ${modeLabel} across 26 sessions`;
     buildDeck('all');
   } catch(e) {
-    document.getElementById('subtitle').textContent = 'Error loading questions.json';
+    document.getElementById('subtitle').textContent = `Error loading ${file}`;
     console.error(e);
   }
 }
@@ -447,6 +453,12 @@ function restart() {
   const session = document.getElementById('sessionFilter').value;
   buildDeck(session);
 }
+
+document.getElementById('modeSelect').addEventListener('change', () => {
+  // Reset session filter to "All" on mode change, then reinit
+  document.getElementById('sessionFilter').innerHTML = '<option value="all">All Sessions</option>';
+  init();
+});
 
 init();
 </script>
