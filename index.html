@@ -376,16 +376,25 @@ function shuffle() {
 
 function showCard() {
   if (current >= deck.length) { showDone(); return; }
+  const card = document.getElementById('card');
+  // If card is flipped, reset first and wait for animation before updating content
+  if (flipped) {
+    card.classList.remove('flipped');
+    flipped = false;
+    setTimeout(() => loadCardContent(), 300);
+  } else {
+    loadCardContent();
+  }
+  updateStats();
+  updateProgress();
+}
+
+function loadCardContent() {
+  if (current >= deck.length) { showDone(); return; }
   const q = deck[current];
   document.getElementById('sessionTag').textContent = q.session ? `Session ${q.session}` : '';
   document.getElementById('questionText').textContent = q.question;
   document.getElementById('answerText').textContent = q.answer;
-  // Reset flip
-  const card = document.getElementById('card');
-  card.classList.remove('flipped');
-  flipped = false;
-  updateStats();
-  updateProgress();
 }
 
 function flipCard() {
