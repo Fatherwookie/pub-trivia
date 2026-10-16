@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pub Trivia Flashcards</title>
+<style>
+  :root {
+    --bg: #0f1117;
+    --surface: #1a1d27;
+    --card-front: #1e2235;
+    --card-back: #1a2e1a;
+    --accent: #f5a623;
+    --accent2: #4caf50;
+    --text: #e8eaf0;
+    --muted: #8890a8;
+    --border: #2a2f45;
+    --shadow: 0 8px 32px rgba(0,0,0,0.4);
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px 16px;
+  }
+
+  header {
+    text-align: center;
+    margin-bottom: 24px;
+  }
+
+  header h1 {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: var(--accent);
+    letter-spacing: -0.5px;
+  }
+
+  header p {
+    color: var(--muted);
+    font-size: 0.9rem;
+    margin-top: 4px;
+  }
+
+  .controls {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 600px;
+  }
+
+  .controls select, .controls button {
+    background: var(--surface);
+    color: var(--text);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 8px 14px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: all 0.15s;
+  }
+
+  .controls select:hover, .controls button:hover {
+    border-color: var(--accent);
+    background: var(--card-front);
+  }
+
+  .controls select { flex: 1; min-width: 160px; }
+
+  .stats {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 20px;
+    font-size: 0.85rem;
+    color: var(--muted);
+  }
+
+  .stats span { display: flex; align-items: center; gap: 4px; }
+  .stats .num { color: var(--accent); font-weight: 600; font-size: 1rem; }
+  .stats .correct-num { color: var(--accent2); }
+
+  /* Flashcard */
+  .card-wrap {
+    width: 100%;
+    max-width: 600px;
+    perspective: 1200px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+
+  .card {
+    position: relative;
+    width: 100%;
+    min-height: 260px;
+    transform-style: preserve-3d;
+    transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+    border-radius: 16px;
+  }
+
+  .card.flipped { transform: rotateY(180deg); }
+
+  .card-face {
+    position: absolute;
+    width: 100%;
+    min-height: 260px;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    border-radius: 16px;
+    padding: 32px 28px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: var(--shadow);
+  }
+
+  .card-front {
+    background: var(--card-front);
+    border: 1px solid var(--border);
+  }
+
+  .card-back {
+    background: var(--card-back);
+    border: 1px solid #2d4a2d;
+    transform: rotateY(180deg);
+  }
+
+  .session-tag {
+    font-size: 0.75rem;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 16px;
+  }
+
+  .card-label {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 12px;
+    font-weight: 600;
+  }
+
+  .card-front .card-label { color: var(--accent); }
+  .card-back .card-label { color: var(--accent2); }
+
+  .card-text {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    font-weight: 500;
+  }
+
+  .card-back .card-text {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #7ee87e;
+  }
+
+  .flip-hint {
+    margin-top: 20px;
+    font-size: 0.78rem;
+    color: var(--muted);
+    text-align: center;
+  }
+
+  /* Action buttons */
+  .actions {
+    display: flex;
+    gap: 12px;
+    width: 100%;
+    max-width: 600px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .btn {
+    flex: 1;
+    min-width: 110px;
+    max-width: 160px;
+    padding: 12px 16px;
+    border: none;
+    border-radius: 10px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.15s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+  }
+
+  .btn-wrong {
+    background: #2d1a1a;
+    color: #e05757;
+    border: 1px solid #4a2020;
+  }
+  .btn-wrong:hover { background: #3d2020; }
+
+  .btn-skip {
+    background: var(--surface);
+    color: var(--muted);
+    border: 1px solid var(--border);
+  }
+  .btn-skip:hover { background: var(--card-front); color: var(--text); }
+
+  .btn-correct {
+    background: #1a2d1a;
+    color: #4caf50;
+    border: 1px solid #2d4a2d;
+  }
+  .btn-correct:hover { background: #223022; }
+
+  .progress-bar-wrap {
+    width: 100%;
+    max-width: 600px;
+    height: 4px;
+    background: var(--surface);
+    border-radius: 2px;
+    margin-top: 20px;
+    overflow: hidden;
+  }
+
+  .progress-bar {
+    height: 100%;
+    background: var(--accent);
+    border-radius: 2px;
+    transition: width 0.3s ease;
+  }
+
+  .done-screen {
+    text-align: center;
+    padding: 40px 20px;
+  }
+
+  .done-screen h2 { font-size: 2rem; color: var(--accent); margin-bottom: 12px; }
+  .done-screen p { color: var(--muted); margin-bottom: 24px; font-size: 1.1rem; }
+  .done-screen .score { font-size: 3rem; font-weight: 800; color: var(--accent2); }
+
+  .restart-btn {
+    background: var(--accent);
+    color: #000;
+    border: none;
+    border-radius: 10px;
+    padding: 14px 32px;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: opacity 0.15s;
+  }
+  .restart-btn:hover { opacity: 0.85; }
+
+  @media (max-width: 480px) {
+    .card-text { font-size: 1.05rem; }
+    .card-back .card-text { font-size: 1.2rem; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>🍺 Pub Trivia Flashcards</h1>
+  <p id="subtitle">Loading questions...</p>
+</header>
+
+<div class="controls">
+  <select id="sessionFilter">
+    <option value="all">All Sessions</option>
+  </select>
+  <button onclick="shuffle()">🔀 Shuffle</button>
+  <button onclick="restart()">↺ Restart</button>
+</div>
+
+<div class="stats">
+  <span><span class="num" id="statCurrent">0</span> / <span id="statTotal">0</span></span>
+  <span>✅ <span class="num correct-num" id="statCorrect">0</span> correct</span>
+  <span>⏭ <span class="num" id="statSkipped">0</span> skipped</span>
+</div>
+
+<div class="card-wrap" id="cardWrap" onclick="flipCard()">
+  <div class="card" id="card">
+    <div class="card-face card-front">
+      <div class="session-tag" id="sessionTag"></div>
+      <div class="card-label">Question</div>
+      <div class="card-text" id="questionText">Loading...</div>
+      <div class="flip-hint">Tap to reveal answer</div>
+    </div>
+    <div class="card-face card-back">
+      <div class="card-label">Answer</div>
+      <div class="card-text" id="answerText"></div>
+    </div>
+  </div>
+</div>
+
+<div class="actions" id="actions">
+  <button class="btn btn-wrong" onclick="markWrong()">✗ Wrong</button>
+  <button class="btn btn-skip" onclick="skipCard()">→ Skip</button>
+  <button class="btn btn-correct" onclick="markCorrect()">✓ Got it</button>
+</div>
+
+<div class="progress-bar-wrap">
+  <div class="progress-bar" id="progressBar" style="width:0%"></div>
+</div>
+
+<div class="done-screen" id="doneScreen" style="display:none">
+  <h2>🎉 Done!</h2>
+  <div class="score" id="finalScore"></div>
+  <p id="finalMsg"></p>
+  <button class="restart-btn" onclick="restart()">Play Again</button>
+</div>
+
+<script>
+let allQuestions = [];
+let deck = [];
+let current = 0;
+let correct = 0;
+let skipped = 0;
+let flipped = false;
+
+async function init() {
+  try {
+    const res = await fetch('questions.json');
+    allQuestions = await res.json();
+    populateSessions();
+    document.getElementById('subtitle').textContent = `${allQuestions.length} questions across 26 sessions`;
+    buildDeck('all');
+  } catch(e) {
+    document.getElementById('subtitle').textContent = 'Error loading questions.json';
+    console.error(e);
+  }
+}
+
+function populateSessions() {
+  const sessions = [...new Set(allQuestions.map(q => q.session).filter(Boolean))].sort((a,b) => +a - +b);
+  const sel = document.getElementById('sessionFilter');
+  sessions.forEach(s => {
+    const opt = document.createElement('option');
+    opt.value = s;
+    opt.textContent = `Session ${s}`;
+    sel.appendChild(opt);
+  });
+  sel.addEventListener('change', () => buildDeck(sel.value));
+}
+
+function buildDeck(session) {
+  deck = session === 'all'
+    ? [...allQuestions]
+    : allQuestions.filter(q => q.session === session);
+  current = 0; correct = 0; skipped = 0;
+  updateStats();
+  showCard();
+  document.getElementById('doneScreen').style.display = 'none';
+  document.getElementById('cardWrap').style.display = '';
+  document.getElementById('actions').style.display = '';
+}
+
+function shuffle() {
+  const session = document.getElementById('sessionFilter').value;
+  buildDeck(session);
+  for (let i = deck.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [deck[i], deck[j]] = [deck[j], deck[i]];
+  }
+  current = 0;
+  showCard();
+}
+
+function showCard() {
+  if (current >= deck.length) { showDone(); return; }
+  const q = deck[current];
+  document.getElementById('sessionTag').textContent = q.session ? `Session ${q.session}` : '';
+  document.getElementById('questionText').textContent = q.question;
+  document.getElementById('answerText').textContent = q.answer;
+  // Reset flip
+  const card = document.getElementById('card');
+  card.classList.remove('flipped');
+  flipped = false;
+  updateStats();
+  updateProgress();
+}
+
+function flipCard() {
+  const card = document.getElementById('card');
+  card.classList.toggle('flipped');
+  flipped = !flipped;
+}
+
+function markCorrect() {
+  correct++;
+  current++;
+  showCard();
+}
+
+function markWrong() {
+  current++;
+  showCard();
+}
+
+function skipCard() {
+  skipped++;
+  current++;
+  showCard();
+}
+
+function updateStats() {
+  document.getElementById('statCurrent').textContent = Math.min(current + 1, deck.length);
+  document.getElementById('statTotal').textContent = deck.length;
+  document.getElementById('statCorrect').textContent = correct;
+  document.getElementById('statSkipped').textContent = skipped;
+}
+
+function updateProgress() {
+  const pct = deck.length ? (current / deck.length) * 100 : 0;
+  document.getElementById('progressBar').style.width = pct + '%';
+}
+
+function showDone() {
+  document.getElementById('cardWrap').style.display = 'none';
+  document.getElementById('actions').style.display = 'none';
+  document.getElementById('progressBar').style.width = '100%';
+  const answered = deck.length - skipped;
+  const pct = answered ? Math.round((correct / answered) * 100) : 0;
+  document.getElementById('finalScore').textContent = `${correct} / ${answered}`;
+  document.getElementById('finalMsg').textContent = `${pct}% correct · ${skipped} skipped`;
+  document.getElementById('doneScreen').style.display = 'block';
+}
+
+function restart() {
+  const session = document.getElementById('sessionFilter').value;
+  buildDeck(session);
+}
+
+init();
+</script>
+</body>
+</html>
