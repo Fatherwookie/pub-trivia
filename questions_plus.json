@@ -23298,5 +23298,1005 @@
     "answer": "Placer mining (alluvial gold mining)",
     "type": "challenge",
     "related_to": 1164
+  },
+  {
+    "session": "28",
+    "question": "T/F: Wyoming borders Canada",
+    "answer": "False (Wyoming does not border Canada)",
+    "type": "original"
+  },
+  {
+    "session": "28",
+    "question": "Which US states actually border Canada? Name 3.",
+    "answer": "Montana, North Dakota, Minnesota, Michigan, Ohio, Pennsylvania, New York, Vermont, New Hampshire, Maine (any 3)",
+    "type": "challenge",
+    "related_to": 1165
+  },
+  {
+    "session": "28",
+    "question": "How many US states share a border with Canada?",
+    "answer": "13",
+    "type": "challenge",
+    "related_to": 1165
+  },
+  {
+    "session": "28",
+    "question": "Smallest Great Lake by surface area",
+    "answer": "Lake Ontario",
+    "type": "original"
+  },
+  {
+    "session": "28",
+    "question": "Rank the Great Lakes from smallest to largest by surface area.",
+    "answer": "Ontario, Erie, Huron, Michigan, Superior",
+    "type": "challenge",
+    "related_to": 1166
+  },
+  {
+    "session": "28",
+    "question": "Which Great Lake is the largest by surface area?",
+    "answer": "Lake Superior",
+    "type": "challenge",
+    "related_to": 1166
+  },
+  {
+    "session": "28",
+    "question": "Which is more: 3 liters or 1 gallon?",
+    "answer": "1 gallon (3.785 liters)",
+    "type": "original"
+  },
+  {
+    "session": "28",
+    "question": "How many liters are in one US gallon?",
+    "answer": "Approximately 3.785 liters",
+    "type": "challenge",
+    "related_to": 1167
+  },
+  {
+    "session": "28",
+    "question": "How many fluid ounces are in one US gallon?",
+    "answer": "128",
+    "type": "challenge",
+    "related_to": 1167
+  },
+  {
+    "session": "28",
+    "question": "Does a baseball umpire use left or right hand to call strikes?",
+    "answer": "Right",
+    "type": "original"
+  },
+  {
+    "session": "28",
+    "question": "In baseball, how many strikes result in a strikeout?",
+    "answer": "3",
+    "type": "challenge",
+    "related_to": 1168
+  },
+  {
+    "session": "28",
+    "question": "What hand signal does a baseball umpire use to call a ball?",
+    "answer": "No signal \u2014 balls are not signaled, only strikes are called",
+    "type": "challenge",
+    "related_to": 1168
+  },
+  {
+    "session": "28",
+    "question": "What type of animal is Bluey?",
+    "answer": "Blue heeler (Australian cattle dog)",
+    "type": "original"
+  },
+  {
+    "session": "28",
+    "question": "What country does the animated show Bluey come from?",
+    "answer": "Australia",
+    "type": "challenge",
+    "related_to": 1169
+  },
+  {
+    "session": "28",
+    "question": "What is the name of Bluey's younger sister?",
+    "answer": "Bingo",
+    "type": "challenge",
+    "related_to": 1169
+  },
+  {
+    "session": "28",
+    "question": "Smallest prime number larger than 47",
+    "answer": "53",
+    "type": "original"
+  },
+  {
+    "session": "28",
+    "question": "What is the definition of a prime number?",
+    "answer": "A number greater than 1 divisible only by 1 and itself",
+    "type": "challenge",
+    "related_to": 1170
+  },
+  {
+    "session": "28",
+    "question": "List all prime numbers between 40 and 60.",
+    "answer": "41, 43, 47, 53, 59",
+    "type": "challenge",
+    "related_to": 1170
+  },
+  {
+    "session": "28",
+    "question": "MLK Jr gave his \"I Have a Dream\" speech in what city?",
+    "answer": "Washington D.C.",
+    "type": "original"
+  },
+  {
+    "session": "28",
+    "question": "In what year did MLK deliver the 'I Have a Dream' speech?",
+    "answer": "1963",
+    "type": "challenge",
+    "related_to": 1171
+  },
+  {
+    "session": "28",
+    "question": "The 'I Have a Dream' speech was delivered during what march?",
+    "answer": "The March on Washington for Jobs and Freedom",
+    "type": "challenge",
+    "related_to": 1171
+  },
+  {
+    "session": "28",
+    "question": "Who was King of England during WWII?",
+    "answer": "King George VI",
+    "type": "original"
+  },
+  {
+    "session": "28",
+    "question": "Who succeeded King George VI on the British throne?",
+    "answer": "Queen Elizabeth II",
+    "type": "challenge",
+    "related_to": 1172
+  },
+  {
+    "session": "28",
+    "question": "How many years did King George VI reign?",
+    "answer": "15 years (1936\u20131952)",
+    "type": "challenge",
+    "related_to": 1172
+  },
+  {
+    "session": "28",
+    "question": "T/F: All 4 feet of a beaver are webbed",
+    "answer": "False (only the hind feet are webbed)",
+    "type": "original"
+  },
+  {
+    "session": "28",
+    "question": "What do beavers use their flat tails for?",
+    "answer": "Steering while swimming, slapping water to signal danger, and storing fat",
+    "type": "challenge",
+    "related_to": 1173
+  },
+  {
+    "session": "28",
+    "question": "What material do beavers use to build their dams?",
+    "answer": "Sticks, mud, and rocks",
+    "type": "challenge",
+    "related_to": 1173
+  },
+  {
+    "session": "28",
+    "question": "Which is NOT an illegitimate child: Charles Manson, Eric Clapton, Jack Nicholson, Paul McCartney?",
+    "answer": "Paul McCartney",
+    "type": "original"
+  },
+  {
+    "session": "28",
+    "question": "Eric Clapton's most famous guitar is nicknamed what?",
+    "answer": "Blackie",
+    "type": "challenge",
+    "related_to": 1174
+  },
+  {
+    "session": "28",
+    "question": "Which famous song did Eric Clapton write about his son who died tragically?",
+    "answer": "Tears in Heaven",
+    "type": "challenge",
+    "related_to": 1174
+  },
+  {
+    "session": "28",
+    "question": "On the flag of Mexico, what does the bird hold in its beak?",
+    "answer": "A snake",
+    "type": "original"
+  },
+  {
+    "session": "28",
+    "question": "What is the bird on the Mexican flag?",
+    "answer": "A golden eagle",
+    "type": "challenge",
+    "related_to": 1175
+  },
+  {
+    "session": "28",
+    "question": "What does the eagle on the Mexican flag stand on?",
+    "answer": "A cactus (nopal)",
+    "type": "challenge",
+    "related_to": 1175
+  },
+  {
+    "session": "28",
+    "question": "Rutgers University is located in what state?",
+    "answer": "New Jersey",
+    "type": "original"
+  },
+  {
+    "session": "28",
+    "question": "What is the nickname of Rutgers University athletic teams?",
+    "answer": "Scarlet Knights",
+    "type": "challenge",
+    "related_to": 1176
+  },
+  {
+    "session": "28",
+    "question": "Rutgers is the state university of which US state?",
+    "answer": "New Jersey",
+    "type": "challenge",
+    "related_to": 1176
+  },
+  {
+    "session": "28",
+    "question": "What are the two major suits in the game of Bridge?",
+    "answer": "Spades and Hearts",
+    "type": "original"
+  },
+  {
+    "session": "28",
+    "question": "How many cards are dealt to each player in a game of bridge?",
+    "answer": "13",
+    "type": "challenge",
+    "related_to": 1177
+  },
+  {
+    "session": "28",
+    "question": "What are the four suits in a standard deck of cards?",
+    "answer": "Hearts, diamonds, clubs, spades",
+    "type": "challenge",
+    "related_to": 1177
+  },
+  {
+    "session": "28",
+    "question": "Moses received the 10 Commandments atop what mountain?",
+    "answer": "Mount Sinai",
+    "type": "original"
+  },
+  {
+    "session": "28",
+    "question": "According to the Bible, who gave Moses the 10 Commandments?",
+    "answer": "God",
+    "type": "challenge",
+    "related_to": 1178
+  },
+  {
+    "session": "28",
+    "question": "In which modern-day country is Mount Sinai located?",
+    "answer": "Egypt",
+    "type": "challenge",
+    "related_to": 1178
+  },
+  {
+    "session": "28",
+    "question": "What ship lies underwater at the Pearl Harbor Memorial?",
+    "answer": "USS Arizona",
+    "type": "original"
+  },
+  {
+    "session": "28",
+    "question": "How many men died aboard the USS Arizona at Pearl Harbor?",
+    "answer": "1,177",
+    "type": "challenge",
+    "related_to": 1179
+  },
+  {
+    "session": "28",
+    "question": "In what year was the USS Arizona Memorial dedicated?",
+    "answer": "1962",
+    "type": "challenge",
+    "related_to": 1179
+  },
+  {
+    "session": "28",
+    "question": "Beyonc\u00e9's last name before getting married?",
+    "answer": "Knowles",
+    "type": "original"
+  },
+  {
+    "session": "28",
+    "question": "Who is Beyonc\u00e9's husband?",
+    "answer": "Jay-Z (Shawn Carter)",
+    "type": "challenge",
+    "related_to": 1180
+  },
+  {
+    "session": "28",
+    "question": "What girl group was Beyonc\u00e9 in before going solo?",
+    "answer": "Destiny's Child",
+    "type": "challenge",
+    "related_to": 1180
+  },
+  {
+    "session": "28",
+    "question": "What city is home to the University of Florida?",
+    "answer": "Gainesville",
+    "type": "original"
+  },
+  {
+    "session": "28",
+    "question": "What are the University of Florida's athletic teams called?",
+    "answer": "Gators (Florida Gators)",
+    "type": "challenge",
+    "related_to": 1181
+  },
+  {
+    "session": "28",
+    "question": "What is the University of Florida's signature color?",
+    "answer": "Orange and blue",
+    "type": "challenge",
+    "related_to": 1181
+  },
+  {
+    "session": "28",
+    "question": "A loganberry is a cross between blackberry and what?",
+    "answer": "Raspberry",
+    "type": "original"
+  },
+  {
+    "session": "28",
+    "question": "Who is the loganberry named after?",
+    "answer": "James Harvey Logan, who developed it in 1881",
+    "type": "challenge",
+    "related_to": 1182
+  },
+  {
+    "session": "28",
+    "question": "Name another berry that is a hybrid cross.",
+    "answer": "Boysenberry (blackberry, raspberry, and loganberry cross)",
+    "type": "challenge",
+    "related_to": 1182
+  },
+  {
+    "session": "28",
+    "question": "What pale yellow fluid comprises about 53% of blood?",
+    "answer": "Plasma",
+    "type": "original"
+  },
+  {
+    "session": "28",
+    "question": "What percentage of blood is made up of red blood cells?",
+    "answer": "About 45%",
+    "type": "challenge",
+    "related_to": 1183
+  },
+  {
+    "session": "28",
+    "question": "What is the medical term for a low red blood cell count?",
+    "answer": "Anemia",
+    "type": "challenge",
+    "related_to": 1183
+  },
+  {
+    "session": "28",
+    "question": "More than half of the world population lives on what continent?",
+    "answer": "Asia",
+    "type": "original"
+  },
+  {
+    "session": "28",
+    "question": "What are the two most populous countries in the world?",
+    "answer": "India and China",
+    "type": "challenge",
+    "related_to": 1184
+  },
+  {
+    "session": "28",
+    "question": "Approximately how many people live in Asia?",
+    "answer": "About 4.7 billion",
+    "type": "challenge",
+    "related_to": 1184
+  },
+  {
+    "session": "28",
+    "question": "Name any year Rembrandt was alive",
+    "answer": "1606\u20131669",
+    "type": "original"
+  },
+  {
+    "session": "28",
+    "question": "In what city did Rembrandt spend most of his life?",
+    "answer": "Amsterdam",
+    "type": "challenge",
+    "related_to": 1185
+  },
+  {
+    "session": "28",
+    "question": "What painting technique is Rembrandt famous for using to create dramatic light and shadow?",
+    "answer": "Chiaroscuro",
+    "type": "challenge",
+    "related_to": 1185
+  },
+  {
+    "session": "28",
+    "question": "Which is more common in twin births: fraternal or identical?",
+    "answer": "Fraternal",
+    "type": "original"
+  },
+  {
+    "session": "28",
+    "question": "What causes identical twins?",
+    "answer": "A single fertilized egg splitting into two",
+    "type": "challenge",
+    "related_to": 1186
+  },
+  {
+    "session": "28",
+    "question": "What percentage of all births result in twins?",
+    "answer": "About 3%",
+    "type": "challenge",
+    "related_to": 1186
+  },
+  {
+    "session": "28",
+    "question": "Who did Daniel Craig replace as James Bond?",
+    "answer": "Pierce Brosnan",
+    "type": "original"
+  },
+  {
+    "session": "28",
+    "question": "How many films did Daniel Craig appear in as James Bond?",
+    "answer": "5",
+    "type": "challenge",
+    "related_to": 1187
+  },
+  {
+    "session": "28",
+    "question": "What was Daniel Craig's first James Bond film?",
+    "answer": "Casino Royale (2006)",
+    "type": "challenge",
+    "related_to": 1187
+  },
+  {
+    "session": "28",
+    "question": "What wager has bettors choosing the top 4 horses in exact order?",
+    "answer": "Superfecta",
+    "type": "original"
+  },
+  {
+    "session": "28",
+    "question": "What is it called when you pick the top 3 finishers in order in horse racing?",
+    "answer": "Trifecta",
+    "type": "challenge",
+    "related_to": 1188
+  },
+  {
+    "session": "28",
+    "question": "What is it called when you pick the winner and second-place finisher in order?",
+    "answer": "Exacta",
+    "type": "challenge",
+    "related_to": 1188
+  },
+  {
+    "session": "28",
+    "question": "Which planet is largest: Earth, Mars, Venus, or Mercury?",
+    "answer": "Earth",
+    "type": "original"
+  },
+  {
+    "session": "28",
+    "question": "How many Earths could fit inside Jupiter?",
+    "answer": "About 1,300",
+    "type": "challenge",
+    "related_to": 1189
+  },
+  {
+    "session": "28",
+    "question": "What is the smallest planet in our solar system?",
+    "answer": "Mercury",
+    "type": "challenge",
+    "related_to": 1189
+  },
+  {
+    "session": "28",
+    "question": "T/F: Squirrels, chipmunks, beavers & porcupines are all rodents",
+    "answer": "True",
+    "type": "original"
+  },
+  {
+    "session": "28",
+    "question": "Name 3 animals that are NOT rodents but are often mistaken for them.",
+    "answer": "Shrews, moles, rabbits (lagomorphs), opossums",
+    "type": "challenge",
+    "related_to": 1190
+  },
+  {
+    "session": "28",
+    "question": "What is the largest rodent in the world?",
+    "answer": "Capybara",
+    "type": "challenge",
+    "related_to": 1190
+  },
+  {
+    "session": "28",
+    "question": "In the Labors of Hercules, how many heads did the Hydra have?",
+    "answer": "9",
+    "type": "original"
+  },
+  {
+    "session": "28",
+    "question": "In Greek mythology, what hero killed the Lernaean Hydra?",
+    "answer": "Hercules (Heracles)",
+    "type": "challenge",
+    "related_to": 1191
+  },
+  {
+    "session": "28",
+    "question": "When the Hydra's heads were cut off, what happened?",
+    "answer": "Two more grew back in its place",
+    "type": "challenge",
+    "related_to": 1191
+  },
+  {
+    "session": "28",
+    "question": "Crewel is most likely used for: carving, shaving, sawing, or embroidering?",
+    "answer": "Embroidering",
+    "type": "original"
+  },
+  {
+    "session": "28",
+    "question": "What type of yarn is traditionally used in crewel embroidery?",
+    "answer": "Wool yarn",
+    "type": "challenge",
+    "related_to": 1192
+  },
+  {
+    "session": "28",
+    "question": "Name another type of needlework besides crewel embroidery.",
+    "answer": "Needlepoint, cross-stitch, or tapestry",
+    "type": "challenge",
+    "related_to": 1192
+  },
+  {
+    "session": "28",
+    "question": "Only type of rock that will float",
+    "answer": "Pumice",
+    "type": "original"
+  },
+  {
+    "session": "28",
+    "question": "Where does pumice rock come from?",
+    "answer": "Volcanic eruptions",
+    "type": "challenge",
+    "related_to": 1193
+  },
+  {
+    "session": "28",
+    "question": "Why does pumice float on water?",
+    "answer": "It has a porous, bubble-filled structure that traps air",
+    "type": "challenge",
+    "related_to": 1193
+  },
+  {
+    "session": "28",
+    "question": "Which does not border Iraq: Israel, Jordan, Syria, or Turkey?",
+    "answer": "Israel",
+    "type": "original"
+  },
+  {
+    "session": "28",
+    "question": "How many countries does Iraq share borders with?",
+    "answer": "6 (Turkey, Syria, Jordan, Saudi Arabia, Kuwait, Iran)",
+    "type": "challenge",
+    "related_to": 1194
+  },
+  {
+    "session": "28",
+    "question": "What body of water does Iraq have a small coastline on?",
+    "answer": "Persian Gulf",
+    "type": "challenge",
+    "related_to": 1194
+  },
+  {
+    "session": "28",
+    "question": "In the center of the flag of Hong Kong: Flower, Lion, Star, or Boat?",
+    "answer": "Flower (Bauhinia)",
+    "type": "original"
+  },
+  {
+    "session": "28",
+    "question": "How many petals does the Bauhinia flower on Hong Kong's flag have?",
+    "answer": "5",
+    "type": "challenge",
+    "related_to": 1195
+  },
+  {
+    "session": "28",
+    "question": "When did Hong Kong return to Chinese sovereignty?",
+    "answer": "1997",
+    "type": "challenge",
+    "related_to": 1195
+  },
+  {
+    "session": "28",
+    "question": "What US State is headquarters for the Mayo Clinic?",
+    "answer": "Minnesota",
+    "type": "original"
+  },
+  {
+    "session": "28",
+    "question": "In what city in Minnesota is the Mayo Clinic headquartered?",
+    "answer": "Rochester",
+    "type": "challenge",
+    "related_to": 1196
+  },
+  {
+    "session": "28",
+    "question": "What are the two other major Mayo Clinic campuses besides Minnesota?",
+    "answer": "Jacksonville, Florida and Phoenix, Arizona",
+    "type": "challenge",
+    "related_to": 1196
+  },
+  {
+    "session": "28",
+    "question": "What type of fish did Santiago hook in The Old Man and the Sea?",
+    "answer": "Marlin",
+    "type": "original"
+  },
+  {
+    "session": "28",
+    "question": "Who wrote The Old Man and the Sea?",
+    "answer": "Ernest Hemingway",
+    "type": "challenge",
+    "related_to": 1197
+  },
+  {
+    "session": "28",
+    "question": "What year did The Old Man and the Sea win the Pulitzer Prize?",
+    "answer": "1953",
+    "type": "challenge",
+    "related_to": 1197
+  },
+  {
+    "session": "28",
+    "question": "In the Odyssey, what was the name of Odysseus' wife?",
+    "answer": "Penelope",
+    "type": "original"
+  },
+  {
+    "session": "28",
+    "question": "How long was Odysseus away from home in the Odyssey?",
+    "answer": "20 years (10 years at Troy, 10 years journeying home)",
+    "type": "challenge",
+    "related_to": 1198
+  },
+  {
+    "session": "28",
+    "question": "What was Penelope doing to delay her suitors while waiting for Odysseus?",
+    "answer": "Weaving and unraveling a burial shroud",
+    "type": "challenge",
+    "related_to": 1198
+  },
+  {
+    "session": "28",
+    "question": "Since 1998, Bentley is owned by what automaker?",
+    "answer": "Volkswagen",
+    "type": "original"
+  },
+  {
+    "session": "28",
+    "question": "What other luxury car brand does Volkswagen Group own?",
+    "answer": "Lamborghini, Porsche, Audi, Bugatti (any one)",
+    "type": "challenge",
+    "related_to": 1199
+  },
+  {
+    "session": "28",
+    "question": "Where are Bentley cars manufactured?",
+    "answer": "Crewe, England",
+    "type": "challenge",
+    "related_to": 1199
+  },
+  {
+    "session": "28",
+    "question": "First name of clothing designer Armani",
+    "answer": "Giorgio",
+    "type": "original"
+  },
+  {
+    "session": "28",
+    "question": "In what country was Giorgio Armani born?",
+    "answer": "Italy",
+    "type": "challenge",
+    "related_to": 1200
+  },
+  {
+    "session": "28",
+    "question": "What Italian fashion house is known for the interlocking G logo?",
+    "answer": "Gucci",
+    "type": "challenge",
+    "related_to": 1200
+  },
+  {
+    "session": "28",
+    "question": "Since 1889, Handsome Dan the Bulldog has been mascot at: Harvard, Yale, Princeton, or Brown?",
+    "answer": "Yale",
+    "type": "original"
+  },
+  {
+    "session": "28",
+    "question": "What is the official name of Yale's athletic teams?",
+    "answer": "Bulldogs",
+    "type": "challenge",
+    "related_to": 1201
+  },
+  {
+    "session": "28",
+    "question": "In what state is Yale University located?",
+    "answer": "Connecticut",
+    "type": "challenge",
+    "related_to": 1201
+  },
+  {
+    "session": "28",
+    "question": "What European country borders France, Germany, Italy, and Austria?",
+    "answer": "Switzerland",
+    "type": "original"
+  },
+  {
+    "session": "28",
+    "question": "What is the capital of Switzerland?",
+    "answer": "Bern",
+    "type": "challenge",
+    "related_to": 1202
+  },
+  {
+    "session": "28",
+    "question": "How many official languages does Switzerland have?",
+    "answer": "4 (German, French, Italian, Romansh)",
+    "type": "challenge",
+    "related_to": 1202
+  },
+  {
+    "session": "28",
+    "question": "In architecture, Ionic, Doric, and Corinthian refer to: Domes, Arcs, Columns, or Turrets?",
+    "answer": "Columns",
+    "type": "original"
+  },
+  {
+    "session": "28",
+    "question": "Which Greek column style is considered the simplest and oldest?",
+    "answer": "Doric",
+    "type": "challenge",
+    "related_to": 1203
+  },
+  {
+    "session": "28",
+    "question": "Which column style is the most ornate, featuring an acanthus leaf design?",
+    "answer": "Corinthian",
+    "type": "challenge",
+    "related_to": 1203
+  },
+  {
+    "session": "28",
+    "question": "In math, an obelus is which symbol: +, \u2212, \u00d7, or \u00f7?",
+    "answer": "\u00f7 (division sign)",
+    "type": "original"
+  },
+  {
+    "session": "28",
+    "question": "What symbol is used for multiplication in math?",
+    "answer": "\u00d7 (times sign)",
+    "type": "challenge",
+    "related_to": 1204
+  },
+  {
+    "session": "28",
+    "question": "Who invented the obelus as a division symbol?",
+    "answer": "Johann Rahn (in 1659)",
+    "type": "challenge",
+    "related_to": 1204
+  },
+  {
+    "session": "28",
+    "question": "The Nile River runs which direction: N, S, E, or W?",
+    "answer": "North",
+    "type": "original"
+  },
+  {
+    "session": "28",
+    "question": "What is the longest river in the world?",
+    "answer": "Nile River",
+    "type": "challenge",
+    "related_to": 1205
+  },
+  {
+    "session": "28",
+    "question": "Into what body of water does the Nile River empty?",
+    "answer": "Mediterranean Sea",
+    "type": "challenge",
+    "related_to": 1205
+  },
+  {
+    "session": "28",
+    "question": "On a horse racing form, what does PP stand for?",
+    "answer": "Post Position",
+    "type": "original"
+  },
+  {
+    "session": "28",
+    "question": "In horse racing, what does 'Morning Line' refer to?",
+    "answer": "The odds set by the track handicapper before betting opens",
+    "type": "challenge",
+    "related_to": 1206
+  },
+  {
+    "session": "28",
+    "question": "What does 'scratched' mean in horse racing?",
+    "answer": "A horse has been withdrawn from the race",
+    "type": "challenge",
+    "related_to": 1206
+  },
+  {
+    "session": "28",
+    "question": "Official currency of Portugal",
+    "answer": "Euro",
+    "type": "original"
+  },
+  {
+    "session": "28",
+    "question": "Before adopting the Euro, what was Portugal's currency?",
+    "answer": "Escudo",
+    "type": "challenge",
+    "related_to": 1207
+  },
+  {
+    "session": "28",
+    "question": "In what year did Portugal adopt the Euro?",
+    "answer": "2002",
+    "type": "challenge",
+    "related_to": 1207
+  },
+  {
+    "session": "28",
+    "question": "In Feb 2026, what artist's Spanish language titled album won Grammy for Album of the Year?",
+    "answer": "Bad Bunny (DeB\u00cd TiRAR M\u00e1S FOToS)",
+    "type": "original"
+  },
+  {
+    "session": "28",
+    "question": "What is Bad Bunny's real name?",
+    "answer": "Benito Antonio Mart\u00ednez Ocasio",
+    "type": "challenge",
+    "related_to": 1208
+  },
+  {
+    "session": "28",
+    "question": "What country is Bad Bunny from?",
+    "answer": "Puerto Rico",
+    "type": "challenge",
+    "related_to": 1208
+  },
+  {
+    "session": "28",
+    "question": "What Ivy League school is in Ithaca, NY?",
+    "answer": "Cornell",
+    "type": "original"
+  },
+  {
+    "session": "28",
+    "question": "What is Cornell University's athletic team nickname?",
+    "answer": "Big Red",
+    "type": "challenge",
+    "related_to": 1209
+  },
+  {
+    "session": "28",
+    "question": "Who founded Cornell University?",
+    "answer": "Ezra Cornell and Andrew Dickson White",
+    "type": "challenge",
+    "related_to": 1209
+  },
+  {
+    "session": "28",
+    "question": "In 2024, Michael Keaton returned to a role he played 36 years before. What role?",
+    "answer": "Beetlejuice",
+    "type": "original"
+  },
+  {
+    "session": "28",
+    "question": "Who directed the original 1988 Beetlejuice film?",
+    "answer": "Tim Burton",
+    "type": "challenge",
+    "related_to": 1210
+  },
+  {
+    "session": "28",
+    "question": "Who played Beetlejuice's co-star Lydia Deetz in both the 1988 and 2024 films?",
+    "answer": "Winona Ryder",
+    "type": "challenge",
+    "related_to": 1210
+  },
+  {
+    "session": "28",
+    "question": "Only US State with a flag that is not a rectangle",
+    "answer": "Ohio",
+    "type": "original"
+  },
+  {
+    "session": "28",
+    "question": "What shape is the Ohio state flag?",
+    "answer": "Swallowtail (burgee) pennant",
+    "type": "challenge",
+    "related_to": 1211
+  },
+  {
+    "session": "28",
+    "question": "What do the 17 stars on the Ohio flag represent?",
+    "answer": "Ohio was the 17th state admitted to the Union",
+    "type": "challenge",
+    "related_to": 1211
+  },
+  {
+    "session": "28",
+    "question": "Proper math term for multiplying 2 numbers",
+    "answer": "Product",
+    "type": "original"
+  },
+  {
+    "session": "28",
+    "question": "What is the math term for the result of dividing two numbers?",
+    "answer": "Quotient",
+    "type": "challenge",
+    "related_to": 1212
+  },
+  {
+    "session": "28",
+    "question": "What is the math term for the result of adding two numbers?",
+    "answer": "Sum",
+    "type": "challenge",
+    "related_to": 1212
+  },
+  {
+    "session": "28",
+    "question": "(30 \u00f7 0.5) + 10 = ?",
+    "answer": "70",
+    "type": "original"
+  },
+  {
+    "session": "28",
+    "question": "What is 30 \u00d7 2 + 10?",
+    "answer": "70",
+    "type": "challenge",
+    "related_to": 1213
+  },
+  {
+    "session": "28",
+    "question": "What is 0.5 expressed as a fraction?",
+    "answer": "1/2",
+    "type": "challenge",
+    "related_to": 1213
+  },
+  {
+    "session": "28",
+    "question": "Hansel & Gretel were collected by: Grimm, Hans Christian Andersen, Rumpelstiltskin, or Aesop?",
+    "answer": "Grimm (Brothers Grimm)",
+    "type": "original"
+  },
+  {
+    "session": "28",
+    "question": "Name another fairy tale collected by the Brothers Grimm.",
+    "answer": "Cinderella, Snow White, Rapunzel, Sleeping Beauty (any one)",
+    "type": "challenge",
+    "related_to": 1214
+  },
+  {
+    "session": "28",
+    "question": "What are the first names of the Brothers Grimm?",
+    "answer": "Jacob and Wilhelm",
+    "type": "challenge",
+    "related_to": 1214
   }
 ]
