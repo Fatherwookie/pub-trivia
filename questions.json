@@ -6073,5 +6073,495 @@
     "session": "28",
     "question": "Hansel & Gretel were collected by: Grimm, Hans Christian Andersen, Rumpelstiltskin, or Aesop?",
     "answer": "Grimm (Brothers Grimm)"
+  },
+  {
+    "session": "30",
+    "question": "T/F: Olympic logo has 1 black ring",
+    "answer": "True (the 5 rings are blue, yellow, black, green, red)"
+  },
+  {
+    "session": "30",
+    "question": "Kilimanjaro is the highest peak on what continent?",
+    "answer": "Africa"
+  },
+  {
+    "session": "30",
+    "question": "Name of the only desert in Texas",
+    "answer": "Chihuahuan Desert"
+  },
+  {
+    "session": "30",
+    "question": "Max # of dogs allowed in a greyhound race in the US?",
+    "answer": "8"
+  },
+  {
+    "session": "30",
+    "question": "A cow's stomach has how many compartments?",
+    "answer": "4"
+  },
+  {
+    "session": "30",
+    "question": "What city is home to the New Texas Stock Exchange (TXSE)?",
+    "answer": "Dallas"
+  },
+  {
+    "session": "30",
+    "question": "Greek Gods lived atop which mountain?",
+    "answer": "Mount Olympus"
+  },
+  {
+    "session": "30",
+    "question": "The Treaty of Paris ended what conflict?",
+    "answer": "The American Revolutionary War (1783)"
+  },
+  {
+    "session": "30",
+    "question": "First 4 words of the Gettysburg Address",
+    "answer": "Four score and seven"
+  },
+  {
+    "session": "30",
+    "question": "SPJST halls were formed to promote the culture of what nationality?",
+    "answer": "Czech"
+  },
+  {
+    "session": "30",
+    "question": "Which of the 7 Wonders of the Ancient World was in Iraq?",
+    "answer": "Hanging Gardens of Babylon"
+  },
+  {
+    "session": "30",
+    "question": "Roald Amundsen was noted for exploration of the North or South Pole?",
+    "answer": "South Pole"
+  },
+  {
+    "session": "30",
+    "question": "Which came first: Iron Age or Bronze Age?",
+    "answer": "Bronze Age"
+  },
+  {
+    "session": "30",
+    "question": "What K word is the proper term for a group of kittens?",
+    "answer": "Kindle"
+  },
+  {
+    "session": "30",
+    "question": "Hart and Hind refer to what animals?",
+    "answer": "Deer (hart = male, hind = female)"
+  },
+  {
+    "session": "30",
+    "question": "Who was the Greek God of the Sun?",
+    "answer": "Apollo"
+  },
+  {
+    "session": "30",
+    "question": "What material comprises the inner core of a baseball?",
+    "answer": "Cork"
+  },
+  {
+    "session": "30",
+    "question": "The Po is a major river in what country?",
+    "answer": "Italy"
+  },
+  {
+    "session": "30",
+    "question": "Zloty is the currency of what country?",
+    "answer": "Poland"
+  },
+  {
+    "session": "30",
+    "question": "What main ingredient is added to coffee and milk to make a mocha?",
+    "answer": "Chocolate"
+  },
+  {
+    "session": "30",
+    "question": "Teddy Roosevelt became president when who was assassinated?",
+    "answer": "William McKinley"
+  },
+  {
+    "session": "30",
+    "question": "How many people are in Da Vinci's painting The Last Supper?",
+    "answer": "13 (Jesus + 12 apostles)"
+  },
+  {
+    "session": "30",
+    "question": "What 2 colors make up the UN flag?",
+    "answer": "Blue and white"
+  },
+  {
+    "session": "30",
+    "question": "What does a cooper create?",
+    "answer": "Barrels (casks)"
+  },
+  {
+    "session": "30",
+    "question": "How many gallons in a US barrel of beer?",
+    "answer": "31 gallons"
+  },
+  {
+    "session": "30",
+    "question": "What color is the cross on the Swedish flag?",
+    "answer": "Yellow (gold)"
+  },
+  {
+    "session": "30",
+    "question": "What country is home to food giant Nestl\u00e9?",
+    "answer": "Switzerland"
+  },
+  {
+    "session": "30",
+    "question": "The ship known as Old Ironsides was made of: Walnut, Oak, Pine, or Elm?",
+    "answer": "Oak"
+  },
+  {
+    "session": "30",
+    "question": "Bic entered market with lighter, razor, or ballpoint pen first?",
+    "answer": "Ballpoint pen (1950)"
+  },
+  {
+    "session": "30",
+    "question": "Brahma is the creator god in what religion?",
+    "answer": "Hinduism"
+  },
+  {
+    "session": "30",
+    "question": "Had a home named Eagle's Nest: Hitler, Eisenhower, Nixon, or Churchill?",
+    "answer": "Hitler"
+  },
+  {
+    "session": "30",
+    "question": "What bird is associated with Rime of the Ancient Mariner?",
+    "answer": "Albatross"
+  },
+  {
+    "session": "30",
+    "question": "Immediately before moving to Las Vegas, where was that NFL team (Raiders)?",
+    "answer": "Oakland"
+  },
+  {
+    "session": "30",
+    "question": "What major Italian city is most vulnerable to Mt. Vesuvius, 5 miles away?",
+    "answer": "Naples"
+  },
+  {
+    "session": "30",
+    "question": "Marianas Trench lies in what ocean?",
+    "answer": "Pacific Ocean"
+  },
+  {
+    "session": "30",
+    "question": "Nickname shared by British troops in Ireland and a beer mix",
+    "answer": "Black and Tan"
+  },
+  {
+    "session": "30",
+    "question": "What state is home to the Extraterrestrial Highway?",
+    "answer": "Nevada"
+  },
+  {
+    "session": "30",
+    "question": "Legendary prize sought by the crew of the Argo",
+    "answer": "Golden Fleece"
+  },
+  {
+    "session": "30",
+    "question": "What is a Trilby: shawl, briefcase, hat, or raincoat?",
+    "answer": "Hat"
+  },
+  {
+    "session": "30",
+    "question": "Japanese automaker that made WWII fighters known as Zeros",
+    "answer": "Mitsubishi"
+  },
+  {
+    "session": "30",
+    "question": "How many square inches in a square foot?",
+    "answer": "144"
+  },
+  {
+    "session": "30",
+    "question": "Movie other than Ben Hur and LOTR that has won 11 Oscars",
+    "answer": "Titanic"
+  },
+  {
+    "session": "30",
+    "question": "What is the first name of Indiana Jones?",
+    "answer": "Henry (Henry Walton Jones Jr.)"
+  },
+  {
+    "session": "30",
+    "question": "How many continents are entirely in the Southern Hemisphere?",
+    "answer": "2 (Australia and Antarctica)"
+  },
+  {
+    "session": "30",
+    "question": "Who is the only manufacturer who can use the name Jet Ski?",
+    "answer": "Kawasaki"
+  },
+  {
+    "session": "30",
+    "question": "Seborrheic Dermatitis: Acne, Freckles, Dandruff, or Sunburn?",
+    "answer": "Dandruff"
+  },
+  {
+    "session": "30",
+    "question": "Elton John's 'Candle in the Wind' originally honored whom?",
+    "answer": "Marilyn Monroe"
+  },
+  {
+    "session": "30",
+    "question": "Highest possible bowling score without any strikes",
+    "answer": "190"
+  },
+  {
+    "session": "30",
+    "question": "Age of Napoleon when he died",
+    "answer": "51"
+  },
+  {
+    "session": "31",
+    "question": "Which of Snow White's dwarves had the longest name?",
+    "answer": "Bashful (7 letters)"
+  },
+  {
+    "session": "31",
+    "question": "Is a salamander a reptile or amphibian?",
+    "answer": "Amphibian"
+  },
+  {
+    "session": "31",
+    "question": "5 MPH or 5 knots per hour \u2014 which is faster?",
+    "answer": "5 knots (~5.75 mph)"
+  },
+  {
+    "session": "31",
+    "question": "What letter of the alphabet is associated with the vitamin in sweet potatoes & carrots that gives good vision?",
+    "answer": "A (Vitamin A)"
+  },
+  {
+    "session": "31",
+    "question": "To create a tangelo, cross a tangerine with what fruit?",
+    "answer": "Grapefruit"
+  },
+  {
+    "session": "31",
+    "question": "Best known petrified forest in US is in what state?",
+    "answer": "Arizona"
+  },
+  {
+    "session": "31",
+    "question": "How many timeouts per half per NFL team in regulation play?",
+    "answer": "3"
+  },
+  {
+    "session": "31",
+    "question": "What continent is home to the Anaconda?",
+    "answer": "South America"
+  },
+  {
+    "session": "31",
+    "question": "At 300 yds by 160 yds, what organized sport is played on the largest pitch?",
+    "answer": "Polo"
+  },
+  {
+    "session": "31",
+    "question": "Who was the first Playboy centerfold?",
+    "answer": "Marilyn Monroe"
+  },
+  {
+    "session": "31",
+    "question": "Japanese WWII battle cry 'Tora Tora Tora' refers to what animal?",
+    "answer": "Tiger"
+  },
+  {
+    "session": "31",
+    "question": "What country is home to Marrakesh?",
+    "answer": "Morocco"
+  },
+  {
+    "session": "31",
+    "question": "More common name for Marsh Fever",
+    "answer": "Malaria"
+  },
+  {
+    "session": "31",
+    "question": "Limburger cheese was founded in Limburg in what modern day country?",
+    "answer": "Belgium"
+  },
+  {
+    "session": "31",
+    "question": "Letter of the alphabet associated with James Bond's weapons supplier",
+    "answer": "Q"
+  },
+  {
+    "session": "31",
+    "question": "What animal supplies us with lanolin?",
+    "answer": "Sheep"
+  },
+  {
+    "session": "31",
+    "question": "What drug is named for the Greek God of Dreams?",
+    "answer": "Morphine (Morpheus)"
+  },
+  {
+    "session": "31",
+    "question": "First serve in tennis comes from server's left or right side of court?",
+    "answer": "Right (deuce side)"
+  },
+  {
+    "session": "31",
+    "question": "Tactile refers to what of the 5 senses?",
+    "answer": "Touch"
+  },
+  {
+    "session": "31",
+    "question": "Longest river in Africa",
+    "answer": "Nile"
+  },
+  {
+    "session": "31",
+    "question": "Jazz legend Jelly Roll Morton is associated with what instrument?",
+    "answer": "Piano"
+  },
+  {
+    "session": "31",
+    "question": "Rounded to nearest billion, how many people on earth?",
+    "answer": "8 billion"
+  },
+  {
+    "session": "31",
+    "question": "Name any year Pancho Villa was alive",
+    "answer": "Any year from 1878 to 1923"
+  },
+  {
+    "session": "31",
+    "question": "At 350 lbs, who was the heaviest US president?",
+    "answer": "William Howard Taft"
+  },
+  {
+    "session": "31",
+    "question": "What element on the periodic table has the shortest name with 3 letters?",
+    "answer": "Tin (Sn)"
+  },
+  {
+    "session": "31",
+    "question": "In English, what word does the B in BMW stand for?",
+    "answer": "Bavarian"
+  },
+  {
+    "session": "31",
+    "question": "Simile or Metaphor: 'The moon was a silver dollar'",
+    "answer": "Metaphor"
+  },
+  {
+    "session": "31",
+    "question": "Dactylion finger is: index, middle, thumb, ring, or pinkie?",
+    "answer": "Middle"
+  },
+  {
+    "session": "31",
+    "question": "Who was the first Black child in Peanuts?",
+    "answer": "Franklin"
+  },
+  {
+    "session": "31",
+    "question": "3-letter Latin word that translates to 'road or way'",
+    "answer": "Via"
+  },
+  {
+    "session": "31",
+    "question": "Who was the Greek God of the Sea?",
+    "answer": "Poseidon"
+  },
+  {
+    "session": "31",
+    "question": "T/F: You would eat the epicarp of an orange",
+    "answer": "True (epicarp is the outer peel/zest)"
+  },
+  {
+    "session": "31",
+    "question": "Commonly used 3-letter name for a group of whales",
+    "answer": "Pod"
+  },
+  {
+    "session": "31",
+    "question": "Letter of the alphabet associated with Ascorbic Acid",
+    "answer": "C"
+  },
+  {
+    "session": "31",
+    "question": "What robot-like creature is named for the Greek word for Man?",
+    "answer": "Android"
+  },
+  {
+    "session": "31",
+    "question": "'What hath God wrought' \u2014 first message sent by: radio, telephone, telegraph, or email?",
+    "answer": "Telegraph (Samuel Morse, 1844)"
+  },
+  {
+    "session": "31",
+    "question": "Is a reindeer: elk or caribou?",
+    "answer": "Caribou"
+  },
+  {
+    "session": "31",
+    "question": "Last name of President of US at beginning of WWI",
+    "answer": "Wilson"
+  },
+  {
+    "session": "31",
+    "question": "Top-selling video game series of all time was Legend of ___",
+    "answer": "Zelda"
+  },
+  {
+    "session": "31",
+    "question": "What mythical figure killed the lion in the constellation Leo?",
+    "answer": "Hercules"
+  },
+  {
+    "session": "31",
+    "question": "Is the UT Tower over or under 350 feet tall?",
+    "answer": "Under (307 feet)"
+  },
+  {
+    "session": "31",
+    "question": "Each show of Shark Tank consists of how many investor panelists?",
+    "answer": "5"
+  },
+  {
+    "session": "31",
+    "question": "What solid color flag tells NASCAR drivers to return to pit for required repairs?",
+    "answer": "Black"
+  },
+  {
+    "session": "31",
+    "question": "How many games does an NFL team play in a regular season?",
+    "answer": "17"
+  },
+  {
+    "session": "31",
+    "question": "Common name for Sodium Bicarbonate",
+    "answer": "Baking soda"
+  },
+  {
+    "session": "31",
+    "question": "Futon is a word from: Japanese, Spanish, English, or Italian?",
+    "answer": "Japanese"
+  },
+  {
+    "session": "31",
+    "question": "We learned from Ray Bradbury's novel that 451\u00b0 is the combustion point of: flesh, gold, or paper?",
+    "answer": "Paper (Fahrenheit 451)"
+  },
+  {
+    "session": "31",
+    "question": "Translate 'Method of Operation' to Latin",
+    "answer": "Modus Operandi"
+  },
+  {
+    "session": "31",
+    "question": "Name 1 brother of Wyatt Earp attending the shoot-out at OK Corral",
+    "answer": "Virgil or Morgan"
   }
 ]
