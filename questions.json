@@ -6077,7 +6077,7 @@
   {
     "session": "30",
     "question": "T/F: Olympic logo has 1 black ring",
-    "answer": "True (the 5 rings are blue, yellow, black, green, red)"
+    "answer": "True"
   },
   {
     "session": "30",
@@ -6182,7 +6182,7 @@
   {
     "session": "30",
     "question": "How many people are in Da Vinci's painting The Last Supper?",
-    "answer": "13 (Jesus + 12 apostles)"
+    "answer": "13"
   },
   {
     "session": "30",
@@ -6216,7 +6216,7 @@
   },
   {
     "session": "30",
-    "question": "Bic entered market with lighter, razor, or ballpoint pen first?",
+    "question": "Bic entered the market first with: lighter, razor, or ballpoint pen?",
     "answer": "Ballpoint pen (1950)"
   },
   {
@@ -6251,8 +6251,8 @@
   },
   {
     "session": "30",
-    "question": "Nickname shared by British troops in Ireland and a beer mix",
-    "answer": "Black and Tan"
+    "question": "At #1 on Hot 100 for over 1 year \u2014 Chappell Roan tune, Chosen \u2014 name the song",
+    "answer": "Good Luck, Babe!"
   },
   {
     "session": "30",
@@ -6263,6 +6263,11 @@
     "session": "30",
     "question": "Legendary prize sought by the crew of the Argo",
     "answer": "Golden Fleece"
+  },
+  {
+    "session": "30",
+    "question": "Nickname shared by British Troops in Ireland and a beer mix",
+    "answer": "Black and Tan"
   },
   {
     "session": "30",
@@ -6487,7 +6492,7 @@
   {
     "session": "31",
     "question": "Letter of the alphabet associated with Ascorbic Acid",
-    "answer": "C"
+    "answer": "C (Vitamin C)"
   },
   {
     "session": "31",
